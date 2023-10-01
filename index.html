@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Um site de exemplo do módulo html e css">
+    <meta name="keywords" content="Agencia Digital, CSS, HTML">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="responsivo.css">
+    <link rel="stylesheet" href="dropdown.css">
+    <title>Belas Unhas</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <h1>Belas Unhas</h1>
+        </div>
+        <div class="menu">
+            <a href="#">Inicio</a>
+            <a href="sobrenos.html">Sobre nós</a>
+            <!-- <a href="#">Serviços</a> -->
+            <li class="dropdown">
+                <a class="dropbtn" href="#"> Serviços </a>
+                <div class="dropdown-content">
+                    <a href="maniPedi.html"> Manicure e Pedicure </a>
+                    <a href="unhaGel.html"> Unha em Gel </a>
+                    <a href="podologia.html"> Podologia </a>
+                    <a href="spaDoPe.html"> Spa do Pé </a>
+                </div>
+            </li>
+
+            <a id="botao" href="faleConosco.html">Fale Conosco</a>
+        </div>
+
+    </nav>
+
+    <header class="header">
+        <div class="headline">
+            <h2 style="letter-spacing:10px;">Centro de Beleza</h2>
+            <h2 style="font-size: 80px;">Manicure e Pedicure </h2>
+
+            <p>As esmalterias são espaços de beleza especializados como foco em produtos e serviços para cuidado,
+                tratamento e embelezamento das unhas, através da oferta de serviços diversos de manicure e pedicure.
+                Os cuidados e embelezamentos das unhas são os serviços de beleza mais procurados e utilizados pelos
+                diferentes perfis de público e principalmente pelo público feminino.
+            </p>
+
+            <a href="agendar.jsp" class="contact-btn">Agendar serviço</a>
+        </div>
+        <div class="img-headline">
+            <img src="img/img-principal.png" style="max-width: 100%;">
+        </div>
+
+    </header>
+
+    <section>
+        <h2>O que podemos fazer por suas unhas?</h2>
+        <div class="servicos">
+
+            <div class="card">
+                <img src="img/spa.png" width="50px" height="50px">
+                <div class="card-text">
+                    <h3>Spa dos Pés</h3>
+                    <p>
+                        O spa dos pés é uma junção de procedimentos que visam promover o bem-estar e o alívio de
+                        tensões.
+                        Consiste em imergir os pés em água morna, esfoliar e hidratar, acompanhando massagens
+                        relaxantes. É
+                        uma prática antiga e bastante conhecida, que vale a pena descobrir. E, acima de tudo, é uma
+                        forma de
+                        autocuidado!
+                    </p>
+                </div>
+
+                <div class="texto-oculto">
+                    <h3>Preço estimado</h3>
+                    <p>
+                        R$ 120,00 por sessão <br>
+
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="img/podo.png" width="50px" height="50px">
+                <div class="card-text">
+                    <h3>Podologia</h3>
+                    <p>Na área da saúde, a Podologia dedica-se à investigação, prevenção, diagnóstico e tratamento de
+                        todas
+                        as alterações que se manifestam no pé. Estas alterações podem ser: dérmicas, estruturais,
+                        funcionais
+                        ou morfológicas.
+                        As principais doenças do pé ou doenças com repercussão ao nível do pé e membros inferiores,
+                        possuem
+                    </p>
+                </div>
+
+                <div class="texto-oculto">
+                    <h3>Preço estimado</h3>
+                    <p> R$ 50,00 por descravação
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="img/gel.png" width="50px" height="50px">
+                <div class="card-text">
+                    <h3>Unha em gel</h3>
+                    <p> Se você tem unhas quebradiças, as unhas de gel são uma ótima solução estética, pois deixarão
+                        suas
+                        unhas com aspecto bonito e saudável. Para quem rói constantemente as unhas a aplicação do gel
+                        irá
+                        inibir a prática, já que ele é muito resistente e não descama como a unha normal.
+                        Com as unhas em gel, o esmalte dura por muito mais tempo.
+                    </p>
+                </div>
+
+                <div class="texto-oculto">
+                    <h3>Preço estimado</h3>
+                    <p>
+                        R$ 100,00 por procedimento
+                    </p>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="logo-rodape">
+            <h1 class="agencia" style="color:white">Belas Unhas</h1>
+            <p style="color:white">Você mais bela a cada dia!</p>
+        </div>
+        <b style="color:white">© Todos os direitos reservados.</b>
+    </footer>
+
+    <a href="https://api.whatsapp.com/send?phone=5583996090606" class="whatsapp-simbolo" target="_blank">
+        <img src="img/whatsapp.png" style="width: 50px;">
+    </a>
+
+</body>
+
+</html>

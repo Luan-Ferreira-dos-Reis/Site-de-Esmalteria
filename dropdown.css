@@ -1,0 +1,37 @@
+li a,
+.dropbtn {
+    display: inline-block;
+    color: white;
+    padding: flex;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+}
+
+li a:hover,
+.dropdown:hover,
+.dropbtn:hover {
+    background-color: white;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    position: absolute;
+    background: white;
+    width: 150px;
+    display: none;
+}
+
+.dropdown-content a {
+    color: black;
+    display: block;
+    text-align: left;
+    border: 1px solid gray;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
